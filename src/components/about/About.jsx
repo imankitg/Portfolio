@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import Me from '../../images/me2.png'
+import Me from '../../images/showcase.svg'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -14,7 +14,7 @@ const About = () => {
             <div className="container about__container">
                 <div className="about__me">
                     <div className="about__me-image">
-                        <img src={Me} alt="About Image" />
+                        <img src={Me} alt="" />
                     </div>
                 </div>
 
@@ -22,23 +22,23 @@ const About = () => {
                     <div className="about__cards">
                         <article className='about__card'>
                             <FaAward className='about__icon'/>
-                            <h5>Experience</h5>
-                            <small>3+ Years Working</small>
+                            <h5>B.Tech '24</h5>
+                            <small>NIT Patna | CGPA - 8.94</small>
                         </article>
                         <article className='about__card'>
                             <FiUsers className='about__icon'/>
-                            <h5>Clients</h5>
-                            <small>200+ WorldWide</small>
+                            <h5>Intermediate</h5>
+                            <small>95.2%</small>
                         </article>
                         <article className='about__card'>
                             <VscFolderLibrary className='about__icon'/>
-                            <h5>Projects</h5>
-                            <small>80+ Completed</small>
+                            <h5>Matriculation</h5>
+                            <small>95.8% District Topper</small>
                         </article>
                     </div>
                    
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui minima, quos architecto perspiciatis dolore voluptas, labore pariatur a illum maxime ea deleniti suscipit placeat nisi ullam. Quidem modi perferendis ab.
+                        An undergraduate student from NIT Patna with demonstrated skill in Problem Solving and Web Development. Solving DSA problems on <a href="https://leetcode.com/ankitgupta0/" target='_blank' rel="noreferrer noopener">Leetcode</a> with 100% consistency. Solved 100+ questions there.
                     </p>
 
                     <a href="#contact" className='btn btn-primary'>Let's Talk</a>

@@ -1,5 +1,5 @@
 import CV from '../../images/cv.pdf'
-import ME from '../../images/me.png'
+
 
 
 const CTA = () => {
